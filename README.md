@@ -5,17 +5,17 @@ This is a powerful PDF Document-based Question Answering System using using Retr
 
 ### A Simple User interface is made with Streamlit
 Deploy the file after setting up the virtual environment with:
-'''
+```
 streamlit run chatwithpdf.py
-'''
+```
 
 ### Another file which uses FastAPI Integration
 The system can be deployed and utilized through FastAPI which is the main.py file
 First Install uvicorn
-'''
+```
 pip install "uvicorn[standard]"
-'''
+```
 Run the Server Program
-'''
+```
 uvicorn.run(app, host="127.0.0.1", port=5000)
-'''
+```
