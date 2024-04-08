@@ -10,8 +10,7 @@ streamlit run chatwithpdf.py
 ```
 
 ### Another file which uses FastAPI Integration
-The system can be deployed and utilized through FastAPI which is the main.py file\n
-First Install uvicorn
+The system can be deployed and utilized through FastAPI in the main.py file. First Install uvicorn:
 ```
 pip install "uvicorn[standard]"
 ```
